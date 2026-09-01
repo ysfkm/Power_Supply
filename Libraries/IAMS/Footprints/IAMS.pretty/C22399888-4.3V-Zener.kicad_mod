@@ -1,0 +1,162 @@
+(footprint "C22399888-4.3V-Zener"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOD-323_L1.8-W1.3-LS2.5-RD footprint")
+	(tags "SOD-323_L1.8-W1.3-LS2.5-RD footprint C22399888")
+	(property "Reference" "REF**"
+		(at 0 -2.726213 0)
+		(layer "F.SilkS")
+		(uuid "93db0d67-5c68-466a-8fc5-1b30d96f4b71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C22399888-4.3V-Zener"
+		(at 0 2.726213 0)
+		(layer "F.Fab")
+		(uuid "a662abcb-6625-4d4a-8bd8-8b9314a00135")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c18fd348-bcbc-447c-a05b-83c6f372991a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "814f07cf-5ce6-41b7-ba6e-1068a00f664f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.851207 -0.726213)
+		(end 0.901245 -0.726213)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f8cd085-4f6a-47f2-a5af-7cf67773de4b")
+	)
+	(fp_line
+		(start -0.851207 0.726213)
+		(end 0.901245 0.726213)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "656bcf3b-97ce-4614-a037-4c087247fd77")
+	)
+	(fp_line
+		(start -0.446761 -0.726213)
+		(end -0.446761 0.726213)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3bc1816a-20ee-49fc-bb10-2bb71f414d10")
+	)
+	(fp_line
+		(start 0.901245 -0.726213)
+		(end 0.901245 -0.529997)
+		(stroke
+			(width 0.151994)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5beb6934-d541-41d0-a9a7-012a3e94d757")
+	)
+	(fp_line
+		(start 0.901245 0.726213)
+		(end 0.901245 0.51999)
+		(stroke
+			(width 0.151994)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "984c7e51-07c3-4ca8-9f11-ad74157a3de8")
+	)
+	(fp_circle
+		(center -1.224917 0.649987)
+		(end -1.1 0.649987)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "04e137e9-4155-46f9-9927-db16200d0a93")
+	)
+	(fp_rect
+		(start -1.8 -0.9)
+		(end 1.8 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c30445a5-7367-4965-9dd8-d16ebaf2baac")
+	)
+	(fp_text user "REF**"
+		(at 0 4.726213 0)
+		(layer "F.Fab")
+		(uuid "7067f702-57f5-499a-9e8e-f670886382a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.172593 0)
+		(size 1 0.750013)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "593d8c9a-f0c8-49b7-b98a-61f13b365a00")
+	)
+	(pad "2" smd rect
+		(at 1.172593 0)
+		(size 1 0.750013)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "63fe8348-08e7-4795-96e2-99bee6848ce1")
+	)
+	(embedded_fonts no)
+	(model "G:\\My Drive\\Electronics\\NanofiberOven\\NanofiberOvenV0.2\\JLC2KiCad_lib/footprint/packages3d/SOD-323_L1.8-W1.3-LS2.5-RD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,167 @@
+(footprint "C2935992-CONN-TH_2P-P2.54_DEALON_DW254W-11-02-85"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CONN-TH_2P-P2.54_DEALON_DW254W-11-02-85 footprint")
+	(tags "CONN-TH_2P-P2.54_DEALON_DW254W-11-02-85 footprint C2935992")
+	(property "Reference" "REF**"
+		(at -0.025 2.175 0)
+		(layer "F.SilkS")
+		(uuid "2890ea83-5400-453d-9caa-6a3d9f61a146")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C2935992-CONN-TH_2P-P2.54_DEALON_DW254W-11-02-85"
+		(at 0 2.000102 0)
+		(layer "F.Fab")
+		(uuid "6fe0924c-50ab-4a1e-a8e9-49b5e02a3b7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92524023-c3b0-4760-b1d3-9375616bffa6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "475197ef-d486-4126-9d0f-623f4b49fad3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34110d78-d460-4c7a-ba12-82a94aa59c46")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.740157 -10.049936)
+		(end -2.740157 -1.549809)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb6dd6a7-6145-4bd0-82f4-3550b10ab8c0")
+	)
+	(fp_line
+		(start -2.740157 -1.549809)
+		(end 2.739903 -1.549809)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b025bf73-388f-45b1-a058-1dc389b6492f")
+	)
+	(fp_line
+		(start 2.739903 -10.049936)
+		(end -2.740157 -10.049936)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ff87d3c-6f74-4b08-ae97-abb83396ef28")
+	)
+	(fp_line
+		(start 2.739903 -1.549809)
+		(end 2.739903 -10.049936)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d939bc8-8bef-458e-924f-cd032488c7d2")
+	)
+	(fp_circle
+		(center -2.639903 0.225)
+		(end -2.375 0.225)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "99b36272-f97d-4f09-b8d3-597c547607ef")
+	)
+	(fp_rect
+		(start -2.975 -10.325)
+		(end 2.975 1.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c485fe00-18c8-4aaa-a53d-6663e3da1c97")
+	)
+	(fp_text user "REF**"
+		(at 0 4.000102 0)
+		(layer "F.Fab")
+		(uuid "ff432c94-cd40-4b1f-a190-bc3008ce1f9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.270003 0.000102)
+		(size 1.8 1.8)
+		(drill 1.020015)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0c2eb66d-d837-4ae2-bf9f-625ad717c99b")
+	)
+	(pad "2" thru_hole circle
+		(at 1.270003 0.000102)
+		(size 1.8 1.8)
+		(drill 1.020015)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eeb338dd-ff47-4198-8b53-1e800bd184f3")
+	)
+	(model "${KICAD_FIREFLY_ELECTRONICS}/Control/Shutter/ShutterV01/ShutterV04/JLC2KiCad_lib/footprint/packages3d/CONN-TH_2P-P2.54_DEALON_DW254W-11-02-85.step"
+		(offset
+			(xyz 0 4.9 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

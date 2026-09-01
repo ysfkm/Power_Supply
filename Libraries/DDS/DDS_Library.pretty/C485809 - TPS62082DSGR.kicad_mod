@@ -1,0 +1,278 @@
+(footprint "C485809 - TPS62082DSGR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "8-Lead Plastic WSON, 2x2mm Body, 0.5mm Pitch, WSON-8, http://www.ti.com/lit/ds/symlink/lm27761.pdf")
+	(tags "WSON 8 1EP")
+	(property "Reference" "REG1"
+		(at -3.3856 0.126 0)
+		(layer "F.SilkS")
+		(uuid "9294f0a5-7aa8-4249-b828-392785cec263")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPS62082DSGR"
+		(at 0.01 2.14 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3190fe85-8be6-4207-a884-e84fc58e91c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "883dd23a-2eed-43fc-b930-cfe63e1b7337")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ba6335b-0139-46a6-bd41-9ac660d46766")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Step-down DC-DC 3.3V 1.2A 2.3V~6V "
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29e9f5f4-19e2-40df-93d0-d5772d39871b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C485809"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6da3dd68-22e0-4c05-850d-67bc501963a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -1.12)
+		(end 0.5 -1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19ebf909-d81c-4b74-95b0-709149b7ba9e")
+	)
+	(fp_line
+		(start 0.5 1.12)
+		(end -0.5 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ca55b57-dc9c-4051-947f-43586368b64a")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c80c8f38-7ffd-486f-9336-d8c475b2c804")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7eae1933-0b14-4b40-b6a2-0c13668b04be")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4538032d-76af-473f-86f0-6cfb3d798808")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d78169d-e909-4736-9c53-e9efc2e6798e")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d9fcb93-a2c8-48ea-8024-88cbac8198fb")
+	)
+	(fp_line
+		(start -0.5 -1)
+		(end -1 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02f897aa-1b66-4fa7-b453-6b9b10584db0")
+	)
+	(fp_line
+		(start -0.5 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4573c690-2c3b-438e-8fe1-aa891916e8eb")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b97ce8e0-1ddf-4f85-832e-15a36b8e4e87")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33bb7ef3-7e97-4247-9695-f75fe0454f60")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b1360952-4c76-42f0-9188-567e3a36350a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at 0 -0.4)
+		(size 0.75 0.65)
+		(layers "F.Paste")
+		(uuid "4a3f38e5-6c79-46ac-b062-0dfb622834aa")
+	)
+	(pad "" smd rect
+		(at 0 0.4)
+		(size 0.75 0.65)
+		(layers "F.Paste")
+		(uuid "a9ceebac-b645-4fdc-8267-f2c72308d759")
+	)
+	(pad "1" smd rect
+		(at -0.95 -0.75)
+		(size 0.5 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c2fcdb3d-d1d5-4c99-9a0f-94a16de486ee")
+	)
+	(pad "2" smd rect
+		(at -0.95 -0.25)
+		(size 0.5 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c0da94fd-1824-47b0-8378-3d94ff78606a")
+	)
+	(pad "3" smd rect
+		(at -0.95 0.25)
+		(size 0.5 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1205c30c-b4cd-40b1-a0ea-8b163aa60d34")
+	)
+	(pad "4" smd rect
+		(at -0.95 0.75)
+		(size 0.5 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9ed94c4d-661e-42c9-8b1a-ac68541d6f51")
+	)
+	(pad "5" smd rect
+		(at 0.95 0.75)
+		(size 0.5 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8b2b68c5-fdc1-4252-a7b0-34ac42dbca2c")
+	)
+	(pad "6" smd rect
+		(at 0.95 0.25)
+		(size 0.5 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5e9f7a75-ffc0-464b-9b29-47006f3c8b39")
+	)
+	(pad "7" smd rect
+		(at 0.95 -0.25)
+		(size 0.5 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7efe6ae3-7686-4cd1-baeb-348748bfaaf0")
+	)
+	(pad "8" smd rect
+		(at 0.95 -0.75)
+		(size 0.5 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6c735378-be2d-4829-9e40-86325b70a8a9")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 0.9 1.6)
+		(layers "F.Cu" "F.Mask")
+		(uuid "5abe08d5-a5d9-4034-84f4-9c0764a5ecf7")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Package_SON.3dshapes/WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

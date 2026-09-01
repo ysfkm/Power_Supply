@@ -1,0 +1,225 @@
+(footprint "C124598-10kPot10T-RES-ADJ-TH_3006P-1-504"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "RES-ADJ-TH_3006P-1-504 footprint")
+	(tags "RES-ADJ-TH_3006P-1-504 footprint C124598")
+	(property "Reference" "REF**"
+		(at 0.152273 -12.85014 0)
+		(layer "F.SilkS")
+		(uuid "677a39b1-7250-47ee-bbec-28b826bd23a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C124598-10kPot10T-RES-ADJ-TH_3006P-1-504"
+		(at 0.152273 11.649987 0)
+		(layer "F.Fab")
+		(uuid "f83a4dc6-2d80-4639-8d92-c665370a3d69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a155755b-0ef5-4e72-b94f-93d17b5423e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94b100ae-28f4-4762-a873-cdecb85bea7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d0a8d45-1bb0-4ec6-bba1-a2d3988c7315")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.347727 -9.649987)
+		(end 2.652273 -9.649987)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42e90031-128a-45ca-9e1a-5f6e9bdbe5f2")
+	)
+	(fp_line
+		(start -2.347727 8.649987)
+		(end 2.652273 8.649987)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "886dac04-0de8-4daf-b1d9-417e01939acc")
+	)
+	(fp_line
+		(start -2.347727 9.649987)
+		(end -2.347727 -9.649987)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a59dd95e-c297-4572-9a7f-2c14a69a9e45")
+	)
+	(fp_line
+		(start -1.247904 -10.85014)
+		(end 1.252223 -10.85014)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "746b43ba-83ee-4f1a-bf68-3bd384f33c82")
+	)
+	(fp_line
+		(start -1.247904 -9.649987)
+		(end -1.247904 -10.85014)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1589292-f0a7-4d7f-9c32-0f283514b503")
+	)
+	(fp_line
+		(start -0.747777 -10.350013)
+		(end 0.75235 -10.350013)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94bd779f-d5ea-45f2-8f2a-6144a0a1fde1")
+	)
+	(fp_line
+		(start 1.252223 -10.85014)
+		(end 1.252223 -9.649987)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c7dbf5a-f328-4fa6-b7f8-55c6c82c49b3")
+	)
+	(fp_line
+		(start 2.652273 -9.649987)
+		(end 2.652273 9.649987)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8169af5-bcac-4d0e-bbac-887a94998512")
+	)
+	(fp_line
+		(start 2.652273 9.649987)
+		(end -2.347727 9.649987)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1128cbf3-9138-444e-ae8d-f6e78298651a")
+	)
+	(fp_circle
+		(center -2.474727 9.776988)
+		(end -2.444729 9.776988)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f1e1ff08-8bf6-4dad-b94d-eed5ed237825")
+	)
+	(fp_rect
+		(start -2.65 -11.25)
+		(end 3 9.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d44c4c55-0f29-4306-9500-09d139848d6a")
+	)
+	(fp_text user "REF**"
+		(at 0.152273 13.649987 0)
+		(layer "F.Fab")
+		(uuid "fadf0028-2a74-4e98-9a33-76a746a50577")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.249682 6.350013)
+		(size 1.524003 1.524003)
+		(drill 0.900025)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4f8a466c-fc8e-4b31-80a0-3fae8550c274")
+	)
+	(pad "2" thru_hole circle
+		(at 1.249682 -1.348743)
+		(size 1.524003 1.524003)
+		(drill 0.900003)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc4f8e59-5321-41c4-bf2d-2af32f2c08dd")
+	)
+	(pad "3" thru_hole circle
+		(at -1.249682 -6.350013)
+		(size 1.524003 1.524003)
+		(drill 0.900025)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c1d6dcbd-eac6-453f-bfa5-bb2cca514c78")
+	)
+	(model "${KICAD_FIREFLY_ELECTRONICS}/Control/RFAmpVCA/RFAmpVCAV01/JLC2KiCad_lib/footprint/packages3d/RES-ADJ-TH_3006P-1-504.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

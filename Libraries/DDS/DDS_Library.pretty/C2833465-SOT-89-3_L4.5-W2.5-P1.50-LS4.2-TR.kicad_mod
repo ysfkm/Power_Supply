@@ -1,0 +1,257 @@
+(footprint "C2833465-SOT-89-3_L4.5-W2.5-P1.50-LS4.2-TR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-TR footprint")
+	(tags "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-TR footprint C2833465")
+	(property "Reference" "REF**"
+		(at 0 -2.820041 0)
+		(layer "F.SilkS")
+		(uuid "67334c90-7943-4fee-b622-e3d921977e3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C2833465-SOT-89-3_L4.5-W2.5-P1.50-LS4.2-TR"
+		(at 0 4.280086 0)
+		(layer "F.Fab")
+		(uuid "599d8093-0006-4fb8-9007-3b4403bad71f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67f86eac-e49e-4fab-8915-a97f6b1127bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1f0950c-710a-43d6-83d4-1a681b4302f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05df9aa0-84b6-4478-91db-7d6388083266")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.299975 2.280086)
+		(end -2.299975 -0.320117)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b89f10c-055c-4000-888d-34f468a457c8")
+	)
+	(fp_line
+		(start -1.400051 2.280086)
+		(end -2.299975 2.280086)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52de1fa5-e1f1-45d5-a72d-bf16d4081a3b")
+	)
+	(fp_line
+		(start 2.299975 -0.320117)
+		(end 2.299975 2.280086)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3661f235-1a33-4a92-a281-620202d334b4")
+	)
+	(fp_line
+		(start 2.299975 2.280086)
+		(end 1.400051 2.280086)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3b42b9d-1159-476e-886d-af5595279c19")
+	)
+	(fp_circle
+		(center 2.239395 -1.370003)
+		(end 2.461329 -1.370003)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "338b0e4e-c58b-4ebc-8ad8-d9d5ed60766e")
+	)
+	(fp_rect
+		(start -2.5 -1.85)
+		(end 2.55 3.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "2a05a7e5-fbaa-4ad3-8173-b6ebe00f8f9f")
+	)
+	(fp_circle
+		(center 1.510033 -1.369952)
+		(end 1.635001 -1.369952)
+		(stroke
+			(width 0.250013)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "c529fa1b-8da4-45af-95e2-4b918e521b44")
+	)
+	(fp_text user "REF**"
+		(at 0 6.280086 0)
+		(layer "F.Fab")
+		(uuid "944c7a26-f02d-4a4f-80b8-77c8d110dce1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at 1.501143 -0.820041)
+		(size 0.7 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1b740c87-59c4-4704-8e69-82fb53626ca9")
+	)
+	(pad "2" thru_hole circle
+		(at -0.5 0.8)
+		(size 0.8 0.8)
+		(drill 0.4)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "17421bbf-d7c5-4c1b-bea3-2b9d2652b37d")
+	)
+	(pad "2" thru_hole circle
+		(at -0.5 1.8)
+		(size 0.8 0.8)
+		(drill 0.4)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "a450a8b8-59a7-4fab-8981-5222de0f2d9f")
+	)
+	(pad "2" thru_hole circle
+		(at -0.5 2.8)
+		(size 0.8 0.8)
+		(drill 0.4)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "45da237c-7ebf-4a97-a462-455373e30af0")
+	)
+	(pad "2" smd custom
+		(at -0.000254 0.820041)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.355855 -0.825502) (xy 0.355855 -2.298705) (xy 0.355855 -2.374905) (xy 0.203454 -2.527305)
+					(xy -0.202946 -2.527305) (xy -0.355347 -2.374905) (xy -0.355347 -0.825502) (xy -0.355347 -0.673101)
+					(xy -1.015748 0.0127) (xy -1.015748 1.714503) (xy -1.015748 1.993904) (xy -0.482347 2.527305) (xy 0.482855 2.527305)
+					(xy 1.016256 1.993904) (xy 1.016256 0.0127) (xy 0.660655 -0.342901) (xy 0.355855 -0.673101)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "58ac6391-0d6c-45b7-9142-bba31b599bbe")
+	)
+	(pad "2" thru_hole circle
+		(at 0.5 0.8)
+		(size 0.8 0.8)
+		(drill 0.4)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "50f135eb-4118-41a4-b322-236b85b77842")
+	)
+	(pad "2" thru_hole circle
+		(at 0.5 1.8)
+		(size 0.8 0.8)
+		(drill 0.4)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "d0edded0-9eb0-4a79-bbdb-64d7a2650d5f")
+	)
+	(pad "2" thru_hole circle
+		(at 0.5 2.8)
+		(size 0.8 0.8)
+		(drill 0.4)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "e63997f8-1065-4242-ae2d-872b83af31f0")
+	)
+	(pad "3" smd oval
+		(at -1.501143 -0.820041)
+		(size 0.7 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1fe8ca06-365c-4b4c-8f4e-63865b761885")
+	)
+	(model "${KICAD_FIREFLY_ELECTRONICS}/Control/RFAmp/RFAmpV18/JLC2KiCad_lib/footprint/packages3d/SOT-89-3_L4.5-W2.5-P1.50-LS4.2-TR.step"
+		(offset
+			(xyz 0 -1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

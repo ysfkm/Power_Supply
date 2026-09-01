@@ -1,0 +1,576 @@
+(footprint "C2839091-PHA-13HLN+"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-TL footprint")
+	(tags "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-TL footprint C2839091")
+	(property "Reference" "U20"
+		(at 4.23 -1.55 90)
+		(layer "F.SilkS")
+		(uuid "79f170e0-1ca6-4eb8-80e6-1d6d989ce655")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PHA-13LN+"
+		(at 0.30428 4.32606 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cf1a294-1630-4afc-905c-346a5bf3aa9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "DDS_Library:C2839091-SOT-89-3_L4.5-W2.5-P1.50-LS4.2-TL"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7799044-c786-4504-80b5-a77016b46ca4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2a6915d-3ed9-499d-a605-062b6ff0db20")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Monolithic Amplifier"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb9e8408-e00b-435f-9fc1-4b1f7fefc0c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PART NUMBER" "PHA-1+"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f049c26-cf8b-4db3-9c6c-2dbfa091a4b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "COMPONENT KIND" "Standard"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e458bb97-2f54-4b42-b40c-9a243156c6e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "COMPONENT TYPE" "Standard"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20b42c1d-5899-4a96-b25d-69264de272be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "FOOTPRINT" "MINI-CIRCUITS_DF782"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c3db21e-e221-4fe9-9422-7fb24669a1a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "PACKAGEDESCRIPTION" "MINI-CIRCUITS DF782 Case, 1.50mm pitch; 4 pin, 2.44mm W X 4.49mm L"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da8ef4f4-4b0d-4337-a0aa-01ccb40aec42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "PART DESCRIPTION" "0.05-6GHz Surface Mount Monolithic Amplifier"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5baed04-1a3a-4b86-8c59-69c90c308e2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "MANUFACTURER" "MINI-CIRCUITS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31eac327-c4dc-43b2-9d2d-3492a411450b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "PHA-1+"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67f43f2c-ef1c-4e5b-b1a6-60e8d0cc1943")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "COMPONENTHEIGHT" "1.6mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee2ef00d-0dc1-4e6b-99d3-8e88ec341a7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "LCSC" "C2839091"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "685f8c3b-5e94-43cc-bd65-c53495f59bfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "HELPHRL" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c606cd4-0e71-4167-b5d7-da360677390d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "DEVICE" "PHA-1+"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f56cb66-2726-48ce-8afe-0e2a8c28bce6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "PIN COUNT" "4"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88f51ac4-8233-4863-a778-a8f063622041")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "MOUNTED" "Yes"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea8146b3-1773-4408-a44e-0891308cde4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "SOCKET" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1263b555-0631-47d7-a12e-e0b1f53fc463")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "SMD" "Yes"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bb7bf94-c2ef-4a99-89f3-78c39afe215f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "PRESSFIT" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73c87066-5a2f-4c35-bc46-fadf481aae2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "SENSE" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a2753e1-da60-48b7-afdd-a69bd20c4a10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "BONDING" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3eaa52c-80ce-4fb0-bc06-b43a779f02ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "AUTHOR" "CERN DEM BC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af13d72f-d740-442e-9553-9d1c146a5216")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "HELPURL" "~{\\}cern.c~{h}df~{s}Application~{s}Altiu~{m}Datasheet~{s}PHA-1+.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2323d6ab-599a-406a-bd88-a626aee04b96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "CREATEDATE" "22.08.2019"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98c63af4-92d5-49cd-a212-65e2f4b3cd01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "LATESTREVISIONDATE" "22.08.2019"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e576cb4e-bd49-4aed-9415-dfae8a022b2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.687579 -2.326314)
+		(end 1.964796 -2.326314)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9fb5eb2f-257c-492b-b492-fefd2f185957")
+	)
+	(fp_line
+		(start -0.687579 2.32606)
+		(end 1.964796 2.32606)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06ba115f-5c32-4a6f-9bab-32f1026e3236")
+	)
+	(fp_line
+		(start 1.959716 -2.326314)
+		(end 1.959716 -1.177496)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cabaccd7-53ed-4733-8346-d8661a264e4e")
+	)
+	(fp_line
+		(start 1.964796 2.32606)
+		(end 1.964796 1.177242)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3db1dfa6-8f6d-4b2f-8600-f514d9ffdcc9")
+	)
+	(fp_circle
+		(center -1.820015 -2.250013)
+		(end -1.5 -2.250013)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "947e79da-84b9-44e6-a29c-731dee87f0d1")
+	)
+	(fp_rect
+		(start -2.25 -2.5)
+		(end 3.4 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e74504a0-9605-4db8-9c40-e4bc02a27988")
+	)
+	(fp_circle
+		(center -1.832487 -1.397384)
+		(end -1.682372 -1.397384)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "c7c85af9-27c0-4ef4-88db-f9370f92473e")
+	)
+	(fp_text user "REF**"
+		(at 0.30428 6.32606 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdfdf45d-e960-4575-a06f-3a586cdb6461")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.356236 -1.5 180)
+		(size 1.575006 0.672009)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0a9ea2f0-c4e9-4e88-b12b-4538bdfa4668")
+	)
+	(pad "2" thru_hole circle
+		(at 0.25 -0.5)
+		(size 0.8 0.8)
+		(drill 0.4)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e092823f-cf07-40a9-8a4e-c9df7e106d0e")
+	)
+	(pad "2" thru_hole circle
+		(at 0.25 0.5)
+		(size 0.8 0.8)
+		(drill 0.4)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7b4fe4c1-da40-405f-875c-4a0f120c1dc2")
+	)
+	(pad "2" thru_hole circle
+		(at 1.25 -0.5)
+		(size 0.8 0.8)
+		(drill 0.4)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "556d6e52-8aea-4aa2-b756-ba29fca94245")
+	)
+	(pad "2" thru_hole circle
+		(at 1.25 0.5)
+		(size 0.8 0.8)
+		(drill 0.4)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "456795e6-fbc2-4480-bb30-bc6079eb879c")
+	)
+	(pad "2" smd custom
+		(at 1.356236 0.008509)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.926949 0.950064) (xy -0.927254 0.950064) (xy -0.971781 0.948997) (xy -1.016205 0.945872)
+					(xy -1.060452 0.940665) (xy -1.104394 0.933401) (xy -1.147955 0.924054) (xy -1.191008 0.9127) (xy -1.233503 0.89934)
+					(xy -1.275311 0.883998) (xy -1.316358 0.866701) (xy -1.356566 0.847523) (xy -1.395809 0.826467)
+					(xy -1.434036 0.803581) (xy -1.471146 0.778943) (xy -1.507061 0.752604) (xy -1.541681 0.724613)
+					(xy -1.574981 0.694996) (xy -1.606833 0.663881) (xy -1.637211 0.631293) (xy -1.666015 0.597333)
+					(xy -1.693193 0.562052) (xy -1.718694 0.525527) (xy -1.742443 0.487859) (xy -1.764415 0.449098)
+					(xy -1.784557 0.409373) (xy -1.802794 0.330074) (xy -3.500127 0.330074) (xy -3.500127 -0.329921)
+					(xy -1.802794 -0.329921) (xy -1.784557 -0.409271) (xy -1.764415 -0.448997) (xy -1.742443 -0.487757)
+					(xy -1.718694 -0.525425) (xy -1.693193 -0.561951) (xy -1.666015 -0.597231) (xy -1.637211 -0.631191)
+					(xy -1.606833 -0.66378) (xy -1.574981 -0.694895) (xy -1.541681 -0.724511) (xy -1.507061 -0.752502)
+					(xy -1.471146 -0.778842) (xy -1.434036 -0.80348) (xy -1.395809 -0.826365) (xy -1.356566 -0.847422)
+					(xy -1.316358 -0.866599) (xy -1.275311 -0.883896) (xy -1.233503 -0.899238) (xy -1.191008 -0.912598)
+					(xy -1.147955 -0.923952) (xy -1.104394 -0.933299) (xy -1.060452 -0.940564) (xy -1.016205 -0.945771)
+					(xy -0.971781 -0.948895) (xy -0.927254 -0.949962) (xy 0.926949 -0.949962) (xy 0.971476 -0.948895)
+					(xy 1.0159 -0.945771) (xy 1.060147 -0.940564) (xy 1.104089 -0.933299) (xy 1.14765 -0.923952) (xy 1.190704 -0.912598)
+					(xy 1.233198 -0.899238) (xy 1.275006 -0.883896) (xy 1.316053 -0.866599) (xy 1.356261 -0.847422)
+					(xy 1.395504 -0.826365) (xy 1.433731 -0.80348) (xy 1.470841 -0.778842) (xy 1.506756 -0.752502)
+					(xy 1.541377 -0.724511) (xy 1.574676 -0.694895) (xy 1.606528 -0.66378) (xy 1.636906 -0.631191)
+					(xy 1.66571 -0.597231) (xy 1.692888 -0.561951) (xy 1.71839 -0.525425) (xy 1.742139 -0.487757) (xy 1.76411 -0.448997)
+					(xy 1.784252 -0.409271) (xy 1.802489 -0.368631) (xy 1.818821 -0.327203) (xy 1.833172 -0.285039)
+					(xy 1.845542 -0.24224) (xy 1.85588 -0.198908) (xy 1.864186 -0.155169) (xy 1.870434 -0.111049) (xy 1.8746 -0.066701)
+					(xy 1.876683 -0.022225) (xy 1.876683 0.022327) (xy 1.8746 0.066802) (xy 1.870434 0.111151) (xy 1.864186 0.155271)
+					(xy 1.85588 0.199009) (xy 1.845542 0.242342) (xy 1.833172 0.285141) (xy 1.818821 0.327305) (xy 1.802489 0.368733)
+					(xy 1.784252 0.409373) (xy 1.76411 0.449098) (xy 1.742139 0.487859) (xy 1.71839 0.525527) (xy 1.692888 0.562052)
+					(xy 1.66571 0.597333) (xy 1.636906 0.631293) (xy 1.606528 0.663881) (xy 1.574676 0.694996) (xy 1.541377 0.724613)
+					(xy 1.506756 0.752604) (xy 1.470841 0.778943) (xy 1.433731 0.803581) (xy 1.395504 0.826467) (xy 1.356261 0.847523)
+					(xy 1.316053 0.866701) (xy 1.275006 0.883998) (xy 1.233198 0.89934) (xy 1.190704 0.9127) (xy 1.14765 0.924054)
+					(xy 1.104089 0.933401) (xy 1.060147 0.940665) (xy 1.0159 0.945872) (xy 0.971476 0.948997) (xy 0.926949 0.950064)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "f5a688d4-ce1c-4cb1-9745-4c759784cb6e")
+	)
+	(pad "2" thru_hole circle
+		(at 2.25 -0.5)
+		(size 0.8 0.8)
+		(drill 0.4)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "313d19dc-2587-48a7-876b-7a1661ddb03a")
+	)
+	(pad "2" thru_hole circle
+		(at 2.25 0.5)
+		(size 0.8 0.8)
+		(drill 0.4)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5f5f94c0-84e2-460c-842f-7fa6aee6fabf")
+	)
+	(pad "3" smd rect
+		(at -1.356236 1.5 180)
+		(size 1.575006 0.672009)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d7257241-317d-4820-918b-54e9e9ec7bfe")
+	)
+	(model "${KICAD_FIREFLY_ELECTRONICS}/Control/DDS9910/DDS9910V09/JLC2KiCad_lib/footprint/packages3d/SOT-89-3_L4.5-W2.5-P1.50-LS4.2-TL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

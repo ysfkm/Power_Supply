@@ -1,0 +1,363 @@
+(footprint "RFShield-MS453-10S_NoStep"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J8"
+		(at 47.6 0.825 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c58b337a-4805-4ed6-8989-653c81a6dc53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "Value" "RFShield_MS453-10"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ed27d603-d070-4db7-97ff-5619d8f3f492")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "DDS_Library:RFShield-MS453-10S_NoStep"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3c32a89-86a0-4888-adbe-0dda7b4f716b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "991a31d2-18ec-419d-98fb-3e15e33915d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d73b80bc-42f3-40b2-83cd-1fcb0622d493")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey Part Number" "2333-MS638-10S-ND"
+		(at 237.25 301.35 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16967250-0996-4dd4-821e-7c619abc8877")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Generic Name" "MS638-10S"
+		(at 237.25 301.35 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d55f07a2-0cf7-4a65-8e60-59249f898320")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Masach"
+		(at 237.25 301.35 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f69630f-014e-4d1f-8e2c-5399931767da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "MS638-10S"
+		(at 237.25 301.35 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "648832be-4eb8-43cf-86fa-d37c96250004")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Max Temperature" ""
+		(at 237.25 301.35 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1404f3e0-a3ea-4164-b4f0-16763bc231c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "388-MS638-10S"
+		(at 237.25 301.35 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6773fd5b-5566-4b30-8e29-8698f58cc812")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Self Resonant Frequency" ""
+		(at 237.25 301.35 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acf82513-be8e-4d9f-87ac-0ae1a26cce0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" ""
+		(at 237.25 301.35 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d19317e-10df-47af-a1d7-704e89bde44e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files allow_missing_courtyard)
+	(fp_line
+		(start 2.4 0.75)
+		(end 4.4 0.75)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "005e0dbb-0a7a-4a76-a5b4-c0543913b480")
+	)
+	(fp_line
+		(start 2.4 16.65)
+		(end 4.4 16.65)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "ef36a47a-cb3f-4845-b5f1-632db7bc1e7d")
+	)
+	(fp_line
+		(start 44.1 0.75)
+		(end 42.1 0.75)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "fa0c64d8-6d9b-4e69-b16f-0db93a2b7a4f")
+	)
+	(fp_line
+		(start 44.1 16.65)
+		(end 42.1 16.65)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "dac6452f-c3b3-41a8-b99e-43c24d252446")
+	)
+	(fp_arc
+		(start 0.75 2.4)
+		(mid 1.233274 1.233274)
+		(end 2.4 0.75)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "400fe849-a2d7-4977-8179-cc2f6a320454")
+	)
+	(fp_arc
+		(start 2.4 16.65)
+		(mid 1.233274 16.166726)
+		(end 0.75 15)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "4209758b-49b2-4482-a302-53f35138adbe")
+	)
+	(fp_arc
+		(start 44.1 0.75)
+		(mid 45.266726 1.233274)
+		(end 45.75 2.4)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "40887b49-a21b-4e8c-9382-1f2b16da8b6a")
+	)
+	(fp_arc
+		(start 45.75 15)
+		(mid 45.266726 16.166726)
+		(end 44.1 16.65)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "aba10e47-cfff-4cf3-a836-357b3b1e8c18")
+	)
+	(fp_line
+		(start 2.4 0.75)
+		(end 4.4 0.75)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "23bd01c0-1c7d-43dd-bdc7-cfbd58177d8b")
+	)
+	(fp_line
+		(start 2.4 16.65)
+		(end 4.4 16.65)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "8d6ca658-65d1-43eb-a78b-60c778a0f310")
+	)
+	(fp_line
+		(start 42.1 0.75)
+		(end 44.1 0.75)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "d575c7ed-3cda-4981-8c7a-55e640704c25")
+	)
+	(fp_line
+		(start 42.1 16.65)
+		(end 44.1 16.65)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "a370c7a6-c690-4bf1-b0fd-b330c26ee720")
+	)
+	(fp_arc
+		(start 0.75 2.4)
+		(mid 1.233274 1.233274)
+		(end 2.4 0.75)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "fdc6106a-9b53-4399-bcac-f65c3ed8c043")
+	)
+	(fp_arc
+		(start 2.4 16.65)
+		(mid 1.233274 16.166726)
+		(end 0.75 15)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "8d2066d6-42dc-4050-89a7-28ab13345e35")
+	)
+	(fp_arc
+		(start 44.1 0.75)
+		(mid 45.266726 1.233274)
+		(end 45.75 2.4)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "accde013-e0fd-4af2-b3fc-0a3c928bd23e")
+	)
+	(fp_arc
+		(start 45.75 15)
+		(mid 45.266727 16.166727)
+		(end 44.1 16.65)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "a9e7a96c-16ed-4d6f-a3e4-335e9af0a786")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d68b7c65-fc63-4bc2-9646-fd08555d739b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0.75 8.7)
+		(size 1.5 2.8)
+		(drill oval 0.8 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(thermal_bridge_angle 45)
+		(uuid "7b301b23-1322-4b73-a3c8-34b0bc0d4937")
+	)
+	(pad "1" thru_hole oval
+		(at 45.75 8.7)
+		(size 1.5 2.8)
+		(drill oval 0.8 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(thermal_bridge_angle 45)
+		(uuid "d7a9039e-80b5-4aad-ac52-e8fdd34da7c2")
+	)
+)

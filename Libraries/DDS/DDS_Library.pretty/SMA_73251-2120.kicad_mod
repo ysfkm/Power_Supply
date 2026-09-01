@@ -1,0 +1,156 @@
+(footprint "SMA_73251-2120"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J**"
+		(at -0.025 6.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d17e928a-a598-4b91-a7f2-3be3b40422cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SMA_73251-2120"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a1b5278-1fc3-4d26-b6dc-73a30484c33c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd94ec63-0550-4b59-8611-354addf0b04e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8900e0b-bcd9-4505-894d-029e37018071")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9d4015c-7093-4db1-a23e-9f654233136b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_rect
+		(start -5 -0.5)
+		(end 5 6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "af2946bf-0cf6-44db-8b97-d826061f3397")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a490d98-0e58-42f6-916a-537c9f5d1b75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" connect rect
+		(at 0 2.1)
+		(size 1.78 4.2)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "a5eb2500-7d8c-4cd7-984a-81bb7ebeceea")
+	)
+	(pad "2" connect rect
+		(at -3.4925 2.1)
+		(size 2.665 4.2)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7ea5b0c1-4faf-44a3-9547-ff70efce2796")
+	)
+	(pad "2" connect rect
+		(at -3.4925 2.1)
+		(size 2.665 4.2)
+		(layers "B.Cu" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "d7a4953c-1426-4f06-bf00-d8a206eba88b")
+	)
+	(pad "2" thru_hole circle
+		(at -3.4925 5.09)
+		(size 0.97 0.97)
+		(drill 0.46)
+		(layers "*.Cu")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "6651d7a0-a87c-467b-b5df-726726f27586")
+	)
+	(pad "2" connect rect
+		(at 3.4925 2.1)
+		(size 2.665 4.2)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "4dbfbe9c-3f96-4d93-8d79-276ec0226820")
+	)
+	(pad "2" connect rect
+		(at 3.4925 2.1)
+		(size 2.665 4.2)
+		(layers "B.Cu" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "c7504943-6211-4b41-8a04-00f10c5d73a5")
+	)
+	(pad "2" thru_hole circle
+		(at 3.4925 5.09)
+		(size 0.97 0.97)
+		(drill 0.46)
+		(layers "*.Cu")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "315e85ac-7e98-4641-8211-443ecd590a48")
+	)
+	(model ":KICAD_FIREFLY_LIBRARY:DDS_Library_Components/SMA_73251-2120/73251-2120.stp"
+		(offset
+			(xyz 0 13 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 0)
+		)
+	)
+)

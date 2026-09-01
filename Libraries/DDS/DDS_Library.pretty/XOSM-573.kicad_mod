@@ -1,0 +1,212 @@
+(footprint "XOSM-573"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "Y1"
+		(at -4.3 -0.14 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b90c8a43-a51e-4e45-92f6-d89516bb42f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XOSM-573 50MHz"
+		(at 0.01 4.96 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "627ab72c-633c-4e33-8500-b75fe028a2ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c079c199-2c50-49f3-8348-d15a94bde384")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41d60695-25c7-4fdc-af69-00aee8ea765b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Four pin crystal, GND on pins 2 and 3"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "920043d1-1a2d-401f-a9a6-3f5e90e7539e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CASE" "7 mm x 5 mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2e6bc2e-b3ba-4cbf-a70a-4a29656c6749")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Vishay / Dale"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "618e42f7-8029-48b6-81a0-7ce11612b3df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "XO37CTECNA50M"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e017e48-3571-48bf-91ca-7e42ba8d8c34")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Max Temperature" "70C"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55c9c5a4-e9a3-442e-87fe-ca87f1072623")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "73-XOSM573BE5000"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5123a021-8311-49af-b90e-61f838cc8754")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Requirements" "RF Clock, DNP"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6e2b1e2-8ecb-47cc-bd49-52755356f64b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 3.1 -4.2)
+		(end 3.503113 -4.2)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "8d1839e3-edc3-4e77-8d23-2f7015c32196")
+	)
+	(fp_rect
+		(start -3.4 -4)
+		(end 3.4 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "1791b6d5-a0df-4af4-9ef5-6e9bbe22fc37")
+	)
+	(fp_rect
+		(start -2.6 -3.6)
+		(end 2.6 3.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "620b8e28-17d3-460c-821b-d3ed9b2635c1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 6.51 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "93d67d6d-55d7-44c3-818a-a01314ced654")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.1 -2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "84c8afe0-0df2-43aa-b4ca-27237dd2531b")
+	)
+	(pad "2" smd rect
+		(at 2.1 2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7525636e-b836-43ad-b6db-0cb5c4fc9aaa")
+	)
+	(pad "3" smd rect
+		(at -2.1 2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "534dfa4a-7fda-4e5a-b123-00b75955f6a5")
+	)
+	(pad "4" smd rect
+		(at -2.1 -2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "24c8ab43-9773-4718-b6e9-cc1a99f1d7fc")
+	)
+)

@@ -1,0 +1,214 @@
+(footprint "C487374-1000uF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CAP-SMD_BD16.0-L17.0-W17.0-RD footprint")
+	(tags "CAP-SMD_BD16.0-L17.0-W17.0-RD footprint C487374")
+	(property "Reference" "REF**"
+		(at 0.004991 -10.500025 0)
+		(layer "F.SilkS")
+		(uuid "b30e374c-fda9-460c-a94b-0435acd06cb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C487374-1000uF"
+		(at 0.004991 10.500025 0)
+		(layer "F.Fab")
+		(uuid "2058ff49-489b-48d1-b290-53bba84d817d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b5f5cc5-fe94-4acd-b091-9bfcd3fd7acd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55f13ce3-d176-4f8b-99ce-05363b76d871")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -8.500025 -8.500025)
+		(end -8.500025 -1.481128)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd21cd97-6b18-42d4-bb9b-3f5882162aec")
+	)
+	(fp_line
+		(start -8.500025 1.481153)
+		(end -8.500025 8.500025)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62ef51db-0e78-42e1-86e3-f1b3bc1024c8")
+	)
+	(fp_line
+		(start -8.500025 8.500025)
+		(end 5.000025 8.500025)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7cb4f2ff-b756-4732-bf03-198797dfb856")
+	)
+	(fp_line
+		(start 5.000025 -8.500025)
+		(end -8.500025 -8.500025)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98494140-66cd-4ef2-ad9f-e6451bc6aa52")
+	)
+	(fp_line
+		(start 8.500025 -5.000025)
+		(end 5.001245 -8.498857)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f44615ca-9ce4-450d-9370-76d4b8547b95")
+	)
+	(fp_line
+		(start 8.500025 -5.000025)
+		(end 8.500025 -1.481128)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9096877-199a-47ba-ac59-c4fb5fd9ddc9")
+	)
+	(fp_line
+		(start 8.500025 1.481153)
+		(end 8.500025 4.989967)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40835dc7-7fdb-43c6-9e46-111b7d821069")
+	)
+	(fp_line
+		(start 8.510008 4.989967)
+		(end 5.011125 8.488748)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d83ac538-bcef-4e48-bc16-bfdb315cae5b")
+	)
+	(fp_arc
+		(start -8.047142 -1.45428)
+		(mid -0.07908 -8.206924)
+		(end 7.986106 -1.570586)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0baedc0-4083-4cc2-bab6-3a2a284314a9")
+	)
+	(fp_arc
+		(start 7.985446 1.752045)
+		(mid -0.057893 8.131287)
+		(end -7.970003 1.589992)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37d91338-e634-4ba2-bed5-c76df754d4b6")
+	)
+	(fp_circle
+		(center 9.398019 -8.489967)
+		(end 9.427991 -8.489967)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "af553232-2e9a-4dcd-948e-48bf67f94696")
+	)
+	(fp_rect
+		(start -11.1 -8.8)
+		(end 11.1 8.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e5919ddd-2e64-4751-b503-95a28442d9df")
+	)
+	(fp_text user "REF**"
+		(at 0.004991 12.500025 0)
+		(layer "F.Fab")
+		(uuid "33b12967-f0e0-4e6b-bfe3-350870031495")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 6.882906 0 270)
+		(size 2.5 8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fa88c773-832f-4c16-9b2e-a32aa3447cc9")
+	)
+	(pad "2" smd rect
+		(at -6.882906 0 270)
+		(size 2.5 8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "098ff091-ed6a-4684-82f9-599b9713a6c6")
+	)
+	(embedded_fonts no)
+	(model "G:\\My Drive\\Electronics\\NanofiberOven\\NanofiberOvenV0.2\\JLC2KiCad_lib/footprint/packages3d/CAP-SMD_BD16.0-L17.0-W17.0-RD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

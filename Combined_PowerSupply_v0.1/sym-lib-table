@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "mike_JLCPCB") (type "KiCad") (uri "${KIPRJMOD}/../Libraries/mike_JLCPCB/mike_JLCPCB.kicad_sym") (options "") (descr "JLCPCB / EasyEDA imported symbols"))
+	(lib (name "IAMS") (type "KiCad") (uri "${KIPRJMOD}/../Libraries/IAMS/Symbols/IAMS.kicad_sym") (options "") (descr ""))
+	(lib (name "DDS_Library") (type "KiCad") (uri "${KIPRJMOD}/../Libraries/DDS/DDS_Library.kicad_sym") (options "") (descr ""))
+)

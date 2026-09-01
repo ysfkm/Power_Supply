@@ -1,0 +1,78 @@
+(footprint "ToolingHoles"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "Ref**"
+		(at 0.05 1.575 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "85c72761-3316-4498-9272-da964bea022e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0.125 1.6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ac536cdb-a845-4cdc-a9e3-7886093a36cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb036b26-18c5-45b2-b27f-a587b08b98fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5577cfdd-bc18-4b2d-90f1-d81d2c366244")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcf1012c-b830-4c00-851e-8cde84f978cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(clearance 0.25)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1.152 1.152)
+		(drill 1.152)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 0.148)
+		(solder_paste_margin 1.152)
+		(clearance 0.25)
+		(uuid "9984c1f1-94cb-4529-ad14-7ae2cac00e17")
+	)
+)

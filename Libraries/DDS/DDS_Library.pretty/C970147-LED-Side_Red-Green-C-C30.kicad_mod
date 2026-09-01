@@ -1,0 +1,142 @@
+(footprint "C970147-LED-Side_Red-Green-C-C30"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED-SMD_R6G6C-C30 footprint")
+	(tags "LED-SMD_R6G6C-C30 footprint C970147")
+	(property "Reference" "REF**"
+		(at 0.05 1.5 0)
+		(layer "F.SilkS")
+		(uuid "eb5ff67c-a8eb-48b3-9de6-1bdabb588dfc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C970147-LED-Side_Red-Green-C-C30"
+		(at -0.000076 2.244933 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd267707-ee8c-4aee-96d1-cfc332550aaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d17fd75e-3e8a-4910-a988-7be16774bcd9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83aaa55f-434a-4b95-8d1f-679b62cdbd5c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f773dcfd-bc53-4d54-8441-00cd60a70cac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_arc
+		(start -0.959233 -1.051359)
+		(mid 0.003523 -1.768708)
+		(end 0.961189 -1.044577)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ec48b0d-4d55-4f09-9ddd-93ea4675f877")
+	)
+	(fp_circle
+		(center 1.45 -1.3)
+		(end 1.65 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "707a6db6-4ed4-48b1-a053-7446af119cda")
+	)
+	(fp_rect
+		(start -1.8 -1.95)
+		(end 1.8 0.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c7331b18-08f3-4cbe-a047-efb0929b7fdd")
+	)
+	(fp_text user "REF**"
+		(at -0.000076 4.244933 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67df3ab4-935c-4fcd-9901-54b509fd6092")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.399975 -0.245034)
+		(size 0.6 1.410008)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0ec0fef9-a83c-4535-aa91-94a830932b46")
+	)
+	(pad "2" smd rect
+		(at -0.000076 0.244933)
+		(size 1.08001 0.429997)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e32c65ad-184a-4f38-a7cd-c72474997a26")
+	)
+	(pad "3" smd rect
+		(at -1.400127 -0.245034)
+		(size 0.6 1.410008)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a29b00ab-0d1b-4841-b85b-94d6a049dbde")
+	)
+	(model "${KICAD_FIREFLY_ELECTRONICS}/Control/RFAmpVCA/RFAmpVCAV01/JLC2KiCad_lib/footprint/packages3d/LED-SMD_R6G6C-C30.step"
+		(offset
+			(xyz 0 0.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

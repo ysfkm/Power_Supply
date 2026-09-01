@@ -1,0 +1,216 @@
+(footprint "C2895285-CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD footprint")
+	(tags "CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD footprint C2895285")
+	(property "Reference" "REF**"
+		(at -0.000102 -7.226213 0)
+		(layer "F.SilkS")
+		(uuid "0e85314c-43e6-4775-9461-e4e29c151e49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C2895285-CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD"
+		(at -0.000102 7.226264 0)
+		(layer "F.Fab")
+		(uuid "68aef0cd-48ce-4f6c-b996-73d3e600892e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09be4be8-2d88-4ca0-955a-bd99cbf61381")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "038e5662-78e3-4f50-b40d-6f746fe4155b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46a2b604-c954-4136-a6a6-cb066ee91349")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.22634 -3.089967)
+		(end -5.225 -1.125)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2fff2752-2356-4762-917f-552b747c7051")
+	)
+	(fp_line
+		(start -5.22634 3.090018)
+		(end -5.225 1.175)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77390a74-4fb4-412e-b589-8a79583744cb")
+	)
+	(fp_line
+		(start -3.090094 -5.226213)
+		(end -5.22634 -3.089967)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5db1ff2-17d6-45a6-a99d-ab2ecc98e075")
+	)
+	(fp_line
+		(start -3.090094 5.226264)
+		(end -5.22634 3.090018)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "542f0ee3-b1cb-4dda-ba19-7523a89e0501")
+	)
+	(fp_line
+		(start 5.225 -1.15)
+		(end 5.226137 -5.226213)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5aa81c5a-0bc3-4172-b95f-e13d38a06514")
+	)
+	(fp_line
+		(start 5.225 1.175)
+		(end 5.226137 5.226264)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4a61391-45a8-429a-a8f2-420683339cef")
+	)
+	(fp_line
+		(start 5.226137 -5.226213)
+		(end -3.090094 -5.226213)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d073354-0048-40e6-a358-b0082d70fdb5")
+	)
+	(fp_line
+		(start 5.226137 5.226264)
+		(end -3.090094 5.226264)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55cb070c-e4a1-4ebf-b38c-4e8da505eb53")
+	)
+	(fp_circle
+		(center -5.150994 4.6)
+		(end -4.724999 4.6)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "717f5bea-1f24-4ad6-a7c1-697e1b409e8b")
+	)
+	(fp_rect
+		(start -6.925 -5.4)
+		(end 6.9 5.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a568038b-e615-40ae-abe5-a8acb1ce195f")
+	)
+	(fp_text user "+"
+		(at -5.975 -3.925 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "03b3f279-665c-46a5-91fd-4cdf3729a544")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "REF**"
+		(at -0.000102 9.226264 0)
+		(layer "F.Fab")
+		(uuid "5d5be8a9-67a6-4bb3-b598-f239dc5dcd12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.5 0)
+		(size 4.5 1.650013)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ba1536a9-b6bb-4294-8bcc-5341cde7ff82")
+	)
+	(pad "2" smd rect
+		(at 4.5 0)
+		(size 4.5 1.650013)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d3fab5eb-a5a0-4a63-b27b-a4754b54bde8")
+	)
+	(model "${KICAD_FIREFLY_ELECTRONICS}/Control/Shutter/ShutterV01/ShutterV04/JLC2KiCad_lib/footprint/packages3d/CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

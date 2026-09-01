@@ -1,0 +1,139 @@
+(footprint "SolderWirePad_1x01_SMD_2x4mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm,")
+	(tags "MesurementPoint Square SMDPad 1mmx2mm ")
+	(property "Reference" "TP1"
+		(at 2.425 -1.4 90)
+		(layer "F.SilkS")
+		(uuid "2f0b8773-422a-47ef-9002-eaf80ac67efb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "+5V"
+		(at 0 2.54 90)
+		(layer "F.Fab")
+		(uuid "baac6d19-2d50-4589-a8f2-d789f0ae8a83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7aae2dd-c703-4508-8927-494dd6fa5a42")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6ca233d-f0fd-459c-8ff5-c15b16765404")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "test point (alternative probe-style design)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53ad653f-67ba-48b8-8e98-3bee1384cdfe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(fp_rect
+		(start -1.15 -2.15)
+		(end 1.175 2.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "89ea50d5-e84f-4d5a-92bb-e412fedb7af9")
+	)
+	(fp_line
+		(start -0.63 -1.27)
+		(end 0.63 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30a954bd-1197-4e9c-8caa-0517d3b0a2c6")
+	)
+	(fp_line
+		(start -0.63 1.27)
+		(end -0.63 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47e8b699-e557-4001-82ef-f34124e214fd")
+	)
+	(fp_line
+		(start 0.63 -1.27)
+		(end 0.63 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85b92aeb-9606-405c-afed-381e9767e0e0")
+	)
+	(fp_line
+		(start 0.63 1.27)
+		(end -0.63 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b40841d-14bd-4075-8bf9-10a976280a9c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3cb70d1-4613-46bf-8b83-74000ef04866")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 2 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "24a5d34f-e433-4ba8-a5ff-8bcb84a9c113")
+	)
+)

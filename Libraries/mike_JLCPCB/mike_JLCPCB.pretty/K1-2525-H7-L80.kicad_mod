@@ -1,0 +1,102 @@
+(footprint "K1-2525-H7-L80"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "Aluminum Box"
+		(at 0 -12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "58f23a3c-2686-4032-a0f9-9841125032cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "K1-2525-H7-L80"
+		(at 0 12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c6f38abd-51ae-4d12-bfa7-266ce733b4a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0975a6ed-1fa1-4254-967b-f6dc92c29630")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef3af14b-7948-41ec-98c7-c4b39a9e8d5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd board_only)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -38.5 -9.75)
+		(end 38.5 -9.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0235e6d6-6668-42d6-9568-7b7c776715d2")
+	)
+	(fp_line
+		(start -38.5 9.75)
+		(end 38.5 9.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "89b876e2-f679-4e2a-b9ed-bc379b629ccc")
+	)
+	(fp_rect
+		(start -38.5 -10.75)
+		(end 38.5 10.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "f42ee43b-e839-4dae-9335-4ebba24dcef1")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_MIKE_JLCPCB_LIB}/mike_JLCPCB.3dshapes/K1-2525-H7-L80.stp"
+		(opacity 0.4000)
+		(offset
+			(xyz 40 0 4.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

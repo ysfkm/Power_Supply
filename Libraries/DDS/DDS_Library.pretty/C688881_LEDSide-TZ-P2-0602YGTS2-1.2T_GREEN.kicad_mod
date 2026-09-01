@@ -1,0 +1,233 @@
+(footprint "C688881_LEDSide-TZ-P2-0602YGTS2-1.2T_GREEN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED-SMD_TZ-P2-0602YGTS2-1.2T_GREEN footprint")
+	(tags "LED-SMD_TZ-P2-0602YGTS2-1.2T_GREEN footprint C688881")
+	(property "Reference" "REF**"
+		(at 0 -3.101981 0)
+		(layer "F.SilkS")
+		(uuid "aef50559-c43c-491a-b173-170ee72cbcfc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C688881_LEDSide-TZ-P2-0602YGTS2-1.2T_GREEN"
+		(at 0 2.281001 0)
+		(layer "F.Fab")
+		(uuid "f4454bdd-abd0-49b4-8726-7a9a1dbd14db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de260200-5893-48da-ac3b-f1ccd94961e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b8515ba-c400-453c-8585-5759876411be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9e8d8a6-8e95-4042-ac0d-b81e2d12dd9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -0.851994)
+		(end -0.849987 -0.851994)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d32d7677-1740-49f4-be55-181ca5c053b2")
+	)
+	(fp_line
+		(start -0.849987 -0.851994)
+		(end -0.6 -1.101981)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c73b607b-5356-41e4-a3dd-0c59e4c4549b")
+	)
+	(fp_line
+		(start -0.6 -1.101981)
+		(end 0.6 -1.101981)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c350abd5-45f2-47b3-bd54-2a908677f733")
+	)
+	(fp_line
+		(start -0.343942 0.281001)
+		(end -0.092482 0.281001)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "591ee450-288d-4d76-8925-b941fcaaef27")
+	)
+	(fp_line
+		(start -0.25395 0.154001)
+		(end -0.25395 -0.1)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c6fa7f7-65c5-4f92-8a1b-04cf2e257f1a")
+	)
+	(fp_line
+		(start -0.092482 0.281001)
+		(end 0.381052 0.281001)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2adb4be-8dcc-4d91-a842-6153c84c65cd")
+	)
+	(fp_line
+		(start 0.381052 -0.227)
+		(end -0.38095 -0.227)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "005c5086-0ddf-4cc3-84cb-ceff42091d55")
+	)
+	(fp_line
+		(start 0.6 -1.101981)
+		(end 0.849987 -0.851994)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e78e6dd-da19-4d6c-8914-e91b39041f81")
+	)
+	(fp_line
+		(start 0.849987 -0.851994)
+		(end 1 -0.851994)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "218f7ea8-1170-4e53-865b-2080d10296aa")
+	)
+	(fp_line
+		(start 1.275 -0.975)
+		(end 1.825 -0.975)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "77a56fa0-6824-4312-aaf8-03da64288fe1")
+	)
+	(fp_line
+		(start 1.55 -1.25)
+		(end 1.55 -0.7)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "03a6721d-1d77-49c4-839b-8b1520d88766")
+	)
+	(fp_circle
+		(center 0.799975 -0.944958)
+		(end 0.829947 -0.944958)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "230d3e25-d6de-4943-922f-a669d3ae6bc5")
+	)
+	(fp_rect
+		(start -1.725 -1.4)
+		(end 1.725 0.675)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ac2d960a-8fd4-4c7f-bc2b-b9c1425fe132")
+	)
+	(fp_text user "REF**"
+		(at 0 4.281001 0)
+		(layer "F.Fab")
+		(uuid "a9e9eaf3-4da4-4a05-8d4e-014346aa5c70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.099949 -0.000076)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0945b6e3-3eac-4fe9-a853-cd140a0a6da7")
+	)
+	(pad "2" smd rect
+		(at -1.099949 -0.000076)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a6e2d95e-5fa1-4a30-9575-45a3b3697f18")
+	)
+	(model "${KICAD_FIREFLY_ELECTRONICS}/Control/AnalogOut/AnalogOutV04/JLC2KiCad_lib/footprint/packages3d/LED-SMD_TZ-P2-0602YGTS2-1.2T_GREEN.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,220 @@
+(footprint "C457198-1757284-CONN-TH_6P-P5.08"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CONN-TH_6P-P5.08_1757284 footprint")
+	(tags "CONN-TH_6P-P5.08_1757284 footprint C457198")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "ad7e425d-020d-403d-a0dc-a1521430689e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C457198-1757284-CONN-TH_6P-P5.08"
+		(at 0 12 0)
+		(layer "F.Fab")
+		(uuid "46638d0f-f0a5-42d9-838f-d98cb37d01a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01f562a9-3fd7-4201-a8b3-f6e1ec3324b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "289ff4be-cb61-451e-b8d4-ea79be54f7b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de48adc5-1759-4256-8fbf-e9392763e715")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C457198"
+		(at 0 0 0)
+		(layer "F.CrtYd")
+		(hide yes)
+		(uuid "0fbd4af9-5f8b-4449-8dcb-e5ed28a8af16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -16.2 -2)
+		(end -16.2 10)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df9fbe3f-cc5d-4bc7-86c3-18ed894188a9")
+	)
+	(fp_line
+		(start -16.2 -2)
+		(end 16.2 -2)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ceacead-04b2-477f-9865-942b398bb06a")
+	)
+	(fp_line
+		(start -16.2 7.859995)
+		(end 16.2 7.859995)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8654bdd0-7020-48a6-af33-b14c38e241c2")
+	)
+	(fp_line
+		(start -16.2 8.800737)
+		(end 16.2 8.800737)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ed162b3-62ff-4ced-a91c-16c9f4e43903")
+	)
+	(fp_line
+		(start -16.2 10)
+		(end 16.2 10)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05224b7a-fa03-4cca-95a7-7c0d15c5be58")
+	)
+	(fp_line
+		(start 16.2 -2)
+		(end 16.2 10)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37720956-9a97-47dd-961b-14c37efa1534")
+	)
+	(fp_rect
+		(start -16.525 -2.325)
+		(end 16.525 10.325)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "6797f70d-75cb-4e47-9991-07b05aaebb4f")
+	)
+	(fp_text user "REF**"
+		(at 0 14 0)
+		(layer "F.Fab")
+		(uuid "42d1d9eb-e38b-4d4e-8f64-2ade99e27143")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -12.700025 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "df9a72eb-22ef-46f0-90ea-3ef590ad8b8f")
+	)
+	(pad "2" thru_hole circle
+		(at -7.620015 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6984cbe7-9427-4061-aee6-67bb44888e57")
+	)
+	(pad "3" thru_hole circle
+		(at -2.540005 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9d2e4360-fd4e-455f-a8dd-ee461b927965")
+	)
+	(pad "4" thru_hole circle
+		(at 2.540005 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "90a8c6e1-0893-4f96-a8bd-3dee3fe6df07")
+	)
+	(pad "5" thru_hole circle
+		(at 7.620015 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b3484bd8-1eaf-4053-8b57-35c9775d6215")
+	)
+	(pad "6" thru_hole circle
+		(at 12.700025 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "906721a0-4ffc-4228-8a40-2f183d8b91f3")
+	)
+	(model "${KICAD_FIREFLY_ELECTRONICS}/Control/Backplane/StandardBackplaneV05-L1/JLC2KiCad_lib/footprint/packages3d/CONN-TH_6P-P5.08_1757284.step"
+		(offset
+			(xyz 0 -4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

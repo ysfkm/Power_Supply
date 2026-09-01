@@ -1,0 +1,210 @@
+(footprint "C179664-SOT-223-6_L6.5-W3.5-P1.27-BL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-223-6_L6.5-W3.5-P1.27-BL footprint")
+	(tags "SOT-223-6_L6.5-W3.5-P1.27-BL footprint C179664")
+	(property "Reference" "REF**"
+		(at 0 -5.098806 0)
+		(layer "F.SilkS")
+		(uuid "be3fe67a-111d-4aee-9216-48aa01fd273c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C179664-SOT-223-6_L6.5-W3.5-P1.27-BL"
+		(at 0 5.098806 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a49b00a-3067-4b70-b329-7633a9afacdc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6af5f26-c953-4ed8-9255-572f710ab14d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "854c6929-b19a-4dc9-aec0-f5a8e022e324")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcd321d4-a8db-4e71-8b8c-a1895e3fe717")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.249936 -1.750064)
+		(end -3.249936 1.750064)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8090286-620a-4060-83be-74910c24c3aa")
+	)
+	(fp_line
+		(start -3.249936 1.750064)
+		(end 3.250191 1.750064)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83c88c0d-8647-4d9b-b8e4-7ce2e28e2826")
+	)
+	(fp_line
+		(start 3.250191 -1.750064)
+		(end -3.249936 -1.750064)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bed19e7c-9777-4277-9cd6-90e5b681ae5e")
+	)
+	(fp_line
+		(start 3.250191 1.750064)
+		(end 3.250191 -1.750064)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7041ad8-1849-4872-bdc8-612690abe227")
+	)
+	(fp_circle
+		(center -3.429007 3.556007)
+		(end -3.175006 3.556007)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "eeb3f34e-7995-44de-a485-7fc3a9fa2124")
+	)
+	(fp_circle
+		(center -3.250013 3.5)
+		(end -3.220015 3.5)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ba1f4453-d9d2-41c0-be72-8779b18a13d1")
+	)
+	(fp_rect
+		(start -3.6 -4.45)
+		(end 3.65 4.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e4e75790-09be-4737-a365-b762d8b990d9")
+	)
+	(fp_circle
+		(center -2.540005 3.175006)
+		(end -2.340005 3.175006)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e3c3ba83-eaf7-44bb-93b0-1016e343e628")
+	)
+	(fp_text user "REF**"
+		(at 0 7.098806 0)
+		(layer "F.Fab")
+		(uuid "fb97a940-d91f-422e-884e-ab61835cea6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.540005 3.098806)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8ec21f02-e208-4092-b926-0b4f3ba3e075")
+	)
+	(pad "2" smd rect
+		(at -1.270003 3.098806)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7613f429-baf4-4346-8743-d6ed9e8bb748")
+	)
+	(pad "3" smd rect
+		(at 0 3.098806)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ff3759b9-4ee3-43a0-8797-63687a4552f2")
+	)
+	(pad "4" smd rect
+		(at 1.270003 3.098806)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e5832d7a-3757-4d25-9f0b-31cba51441db")
+	)
+	(pad "5" smd rect
+		(at 2.540005 3.098806)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f8881e3b-9271-490e-9e96-7c6d31d70bb8")
+	)
+	(pad "6" smd rect
+		(at 0 -3.098806 180)
+		(size 3.5 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "009ecd23-48ff-4458-981d-5c29531a952f")
+	)
+	(model "K:\\My Drive\\Electronics\\Control\\Clock Generator\\ClockGeneratorV04\\JLC2KiCad_lib/footprint/packages3d/SOT-223-6_L6.5-W3.5-P1.27-BL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

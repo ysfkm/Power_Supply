@@ -1,0 +1,395 @@
+(footprint "C_2220_5650Metric"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor")
+	(property "Reference" "C15"
+		(at -4.6 -2.4 90)
+		(layer "F.SilkS")
+		(uuid "208f6932-003c-4dd8-b1ef-6d7276d842ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "Value" "22uF"
+		(at 0 3.65 0)
+		(layer "F.Fab")
+		(uuid "05ebb27f-d61c-4c90-8f96-17bbf546a1b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Capacitor_SMD:C_2220_5650Metric"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ccd27e3-bc77-46b0-afd0-db31a0c5648f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0df84024-5540-41a2-a18c-906c36b8da8c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ef25d2f-4dd3-4798-9684-0d6aef2db834")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ALTIUM_VALUE" "22uF"
+		(at 230.43 -111.37 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e034a93-7757-4656-aadd-72c5ae25ca1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CASE" "2220"
+		(at 230.43 -111.37 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3825b61f-e652-4e6e-9533-7cb364bd4531")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey Part Number" ""
+		(at 230.43 -111.37 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea5f3b15-4d2a-4740-9669-b626f0cd37e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Generic Name" "CC2220_22UF_50V_20%_X7R"
+		(at 230.43 -111.37 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d44c656-a413-4d93-911c-a27a68acaeec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER NAME" "MuRata"
+		(at 230.43 -111.37 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d5f6185-cdcc-46d8-8375-cbb1e1ada1c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "C2012X5R1V226M125AC"
+		(at 230.43 -111.37 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d3c07c2-6c1c-4511-9c00-b30cb2b69143")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "TDK"
+		(at 230.43 -111.37 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f320771f-ffeb-44d8-bc11-bb7927ef2183")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "C5750X7R1H226M250KB"
+		(at 230.43 -111.37 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0e881cc-e725-4061-ba88-4348487b9532")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Max Temperature" "125C"
+		(at 230.43 -111.37 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd49a09d-43e5-49f0-93bf-0aa2d66aad75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "810-C5750X7R1H226M25"
+		(at 230.43 -111.37 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9a7ede3-88a5-4d60-a6c8-d90e1394b205")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Operating Conditions" "35V"
+		(at 230.43 -111.37 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a965f48-c8c1-49a0-a330-db2f461ecfbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGEREFERENCE" "C2012X5R1V226M125AC"
+		(at 230.43 -111.37 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84ed9f52-6772-4684-bb98-d4e96f77b79b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Self Resonant Frequency" ""
+		(at 230.43 -111.37 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "deb626ec-e0a9-47a9-b8f6-be6e082ffaf1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tolerance" "20%"
+		(at 230.43 -111.37 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55fff9c9-3a27-4656-adbc-2f7da4eb23f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" "X7R"
+		(at 230.43 -111.37 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc7a8bc5-28db-444d-857a-bb1acb95fd3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage" "50VDC"
+		(at 230.43 -111.37 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "550df9ab-2720-44f2-86e9-14ac248e745d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.415748 -2.61)
+		(end 1.415748 -2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b31dc10f-02e0-46d4-a679-aebbff9835b9")
+	)
+	(fp_line
+		(start -1.415748 2.61)
+		(end 1.415748 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59870f85-c710-46cc-b23e-6c09e0624409")
+	)
+	(fp_line
+		(start -3.7 -2.95)
+		(end 3.7 -2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1c80e899-6507-4c08-94cc-855357094361")
+	)
+	(fp_line
+		(start -3.7 2.95)
+		(end -3.7 -2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c57f2c29-9956-41b3-9be1-1fa5c731842d")
+	)
+	(fp_line
+		(start 3.7 -2.95)
+		(end 3.7 2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86cc80c0-f89e-472b-90ea-0fa49b6fb924")
+	)
+	(fp_line
+		(start 3.7 2.95)
+		(end -3.7 2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d59fb9cf-4eda-4140-a8cc-9d52f2921472")
+	)
+	(fp_line
+		(start -2.85 -2.5)
+		(end 2.85 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82ef1c86-9563-4074-9c8e-08a5d9738beb")
+	)
+	(fp_line
+		(start -2.85 2.5)
+		(end -2.85 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f85eba48-5fd2-49ab-b13f-d9042ce4d5df")
+	)
+	(fp_line
+		(start 2.85 -2.5)
+		(end 2.85 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dcfcadfa-79c9-4d56-9e7a-de545c51f9a3")
+	)
+	(fp_line
+		(start 2.85 2.5)
+		(end -2.85 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72c6ad52-8214-4c4f-ae72-b4f93a5d24a8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "70cbb0c6-98c4-4b0b-80d9-832e0d18b790")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.55 0)
+		(size 1.8 5.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1388888889)
+		(uuid "4e5abecd-d062-496e-8b6b-2668a826bd14")
+	)
+	(pad "2" smd roundrect
+		(at 2.55 0)
+		(size 1.8 5.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1388888889)
+		(uuid "661b5b12-fbe2-43d3-85ea-44ddba5cc982")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_2220_5650Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

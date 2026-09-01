@@ -1,0 +1,292 @@
+(footprint "SISA35DNT1GE3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SISA35DN-T1-GE3-1")
+	(tags "MOSFET (P-Channel)")
+	(property "Reference" "Q**"
+		(at 0 -2.65 0)
+		(layer "F.SilkS")
+		(uuid "54d043b7-c597-4793-87ce-672d2338b244")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SISA35DNT1GE3"
+		(at 0.025 3.875 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2ca1e4ab-53e6-4dbe-94f5-d12052e684ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5faefd64-8edf-4d0d-ae4f-b461ba4e1e95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1ba7e01-4c32-4250-81b2-e05eed3d0878")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a574844-16aa-4de6-afeb-d296ac6491bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -0.99)
+		(end -2.5 -0.99)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04394703-d2e3-4304-9c89-afacf5c1768d")
+	)
+	(fp_line
+		(start -2.4 -0.99)
+		(end -2.4 -0.99)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b176e0d-5681-46ec-a672-3b3b8fa4ca9f")
+	)
+	(fp_line
+		(start -1.525 -1.525)
+		(end 1.525 -1.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b3e9867-05f9-4093-9aab-2173d53c4010")
+	)
+	(fp_line
+		(start -1.525 1.525)
+		(end 1.525 1.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39cad4e5-45e8-45a9-8f73-66a2f0dd2ee9")
+	)
+	(fp_arc
+		(start -2.5 -0.99)
+		(mid -2.45 -1.04)
+		(end -2.4 -0.99)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60a08c3e-16b2-4512-8711-3cf5e3d83d3c")
+	)
+	(fp_arc
+		(start -2.4 -0.99)
+		(mid -2.45 -0.94)
+		(end -2.5 -0.99)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ca337a7-9af7-4cc0-8b42-4ae14a201584")
+	)
+	(fp_line
+		(start -2.93 -2.525)
+		(end 2.93 -2.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "17dde18f-8679-4128-a43d-2ba29f73077b")
+	)
+	(fp_line
+		(start -2.93 2.525)
+		(end -2.93 -2.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a5eab2c-9b32-431f-b742-70fd441ced1b")
+	)
+	(fp_line
+		(start 2.93 -2.525)
+		(end 2.93 2.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "499785d0-3593-49a3-9ed3-4bb499956f73")
+	)
+	(fp_line
+		(start 2.93 2.525)
+		(end -2.93 2.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8596e6ee-2213-4db2-ba7d-03e0e7e98748")
+	)
+	(fp_line
+		(start -1.525 -1.525)
+		(end 1.525 -1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec45469a-b599-4629-884a-237cb88444ad")
+	)
+	(fp_line
+		(start -1.525 1.525)
+		(end -1.525 -1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b32a6c76-d1db-44a2-9a75-c3f6d3e1b607")
+	)
+	(fp_line
+		(start 1.525 -1.525)
+		(end 1.525 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79616410-3892-4492-945d-bfba9810fea1")
+	)
+	(fp_line
+		(start 1.525 1.525)
+		(end -1.525 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "945f69d7-bae6-4281-b5c1-9ac30af0fee5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.15 3.875 0)
+		(layer "F.Fab")
+		(uuid "61bd6197-fda1-4634-bdee-f402316d22cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.435 -0.99 90)
+		(size 0.405 0.99)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "591c43fa-3fd5-4097-a7c7-75005548f46b")
+	)
+	(pad "1" smd rect
+		(at -1.435 -0.33 90)
+		(size 0.405 0.99)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f1eed220-8391-46e9-8537-46cb85d70551")
+	)
+	(pad "1" smd rect
+		(at -1.435 0.33 90)
+		(size 0.405 0.99)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cdb9eb75-ac01-4742-a0d9-b9c53df32ffb")
+	)
+	(pad "2" smd rect
+		(at -1.435 0.99 90)
+		(size 0.405 0.99)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4c0049a1-1275-4d1c-bc57-7bcf37edb246")
+	)
+	(pad "3" smd custom
+		(at 0.557 0)
+		(size 1.725 2.235)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start 0.613 0.775)
+				(end 1.373 1.182)
+				(width 0.01)
+				(fill yes)
+			)
+			(gr_rect
+				(start 0.613 0.125)
+				(end 1.373 0.532)
+				(width 0.01)
+				(fill yes)
+			)
+			(gr_rect
+				(start 0.613 -0.525)
+				(end 1.373 -0.118)
+				(width 0.01)
+				(fill yes)
+			)
+			(gr_rect
+				(start 0.613 -1.1945)
+				(end 1.373 -0.7875)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "c47a631a-2cf3-4bc1-80ef-1fb195d8fca3")
+	)
+	(model ":KICAD_FIREFLY_LIBRARY:DDS_Library_Components/SI7629DN-T1-GE3/SISA35DN-T1-GE3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

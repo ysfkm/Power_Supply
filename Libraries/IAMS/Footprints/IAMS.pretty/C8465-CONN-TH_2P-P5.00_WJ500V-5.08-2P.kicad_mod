@@ -1,0 +1,216 @@
+(footprint "C8465-CONN-TH_2P-P5.00_WJ500V-5.08-2P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CONN-TH_2P-P5.00_WJ500V-5.08-2P footprint")
+	(tags "CONN-TH_2P-P5.00_WJ500V-5.08-2P footprint C8465")
+	(property "Reference" "REF**"
+		(at -0.3 -7.640081 0)
+		(layer "F.SilkS")
+		(uuid "4c93937d-4109-41cb-a6c4-309365365018")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C8465-CONN-TH_2P-P5.00_WJ500V-5.08-2P"
+		(at -0.3 6.522479 0)
+		(layer "F.Fab")
+		(uuid "a6dfb820-dee4-4940-81e6-5c80866e39bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1cebeff-bc8e-4f9f-a3b3-3facd490534a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c51c72be-5b8a-4bbd-b36c-faad5e570da5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.68001 -4.750013)
+		(end -5.68001 -3.749987)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1931968-2ef1-4a6c-90a6-c17ff819f4ce")
+	)
+	(fp_line
+		(start -5.68001 -3.749987)
+		(end -5.08001 -3.999898)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20b42493-46f4-4354-b22a-151dfb388322")
+	)
+	(fp_line
+		(start -5.68001 2.750013)
+		(end -5.68001 3.750013)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "079e7db9-1302-4bfd-840b-58025418339d")
+	)
+	(fp_line
+		(start -5.68001 3.750013)
+		(end -5.08001 3.499975)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eafab4f7-e777-4b03-bb1e-db317436fa5d")
+	)
+	(fp_line
+		(start -5.08001 -4.500025)
+		(end -5.68001 -4.750013)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b36d24b-855d-40fb-85b0-a73731d129fa")
+	)
+	(fp_line
+		(start -5.08001 3.000076)
+		(end -5.68001 2.750013)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f987ea68-a8fa-4c39-b2af-86344234f407")
+	)
+	(fp_line
+		(start -5.08001 4.519939)
+		(end -5.08001 -5.640081)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dbc9b568-fcfa-4554-a1a0-6cc89543efaa")
+	)
+	(fp_line
+		(start 5.08001 -5.637541)
+		(end -5.053848 -5.637541)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c693ce4c-811b-4dea-aef5-ad9aefc1b340")
+	)
+	(fp_line
+		(start 5.08001 4.522479)
+		(end -5.053848 4.522479)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0437af8f-ebf5-4d37-8a81-a5a2ec80ed78")
+	)
+	(fp_line
+		(start 5.08001 4.522479)
+		(end 5.08001 -5.637541)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c9bf524-5500-4d6d-bfd9-daafe1140cec")
+	)
+	(fp_circle
+		(center -5.20701 4.5)
+		(end -5.177013 4.5)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1ccb3198-da1d-47b2-8dec-b02959f1db9e")
+	)
+	(fp_rect
+		(start -6 -6)
+		(end 5.4 4.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b0c586af-071b-4634-ba14-40be87eafa9d")
+	)
+	(fp_text user "REF**"
+		(at -0.3 8.522479 0)
+		(layer "F.Fab")
+		(uuid "35747e36-ce03-4eb0-aea8-75d5a159d903")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.540005 0)
+		(size 2 2)
+		(drill 1.300025)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1ce75131-16b5-4d50-938c-80adeb8a0574")
+	)
+	(pad "2" thru_hole circle
+		(at 2.540005 0)
+		(size 2 2)
+		(drill 1.300025)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "06ffd430-a4a6-4cf2-ba3d-14a5c77342f6")
+	)
+	(embedded_fonts no)
+	(model "G:\\My Drive\\Electronics\\NanofiberOven\\NanofiberOvenV0.2\\JLC2KiCad_lib/footprint/packages3d/CONN-TH_2P-P5.00_WJ500V-5.08-2P.step"
+		(offset
+			(xyz 2.54 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

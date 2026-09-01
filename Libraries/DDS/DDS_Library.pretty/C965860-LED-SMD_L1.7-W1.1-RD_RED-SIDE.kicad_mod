@@ -1,0 +1,164 @@
+(footprint "C965860-LED-SMD_L1.7-W1.1-RD_RED-SIDE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED-SMD_L1.7-W1.1-RD_RED-SIDE footprint")
+	(tags "LED-SMD_L1.7-W1.1-RD_RED-SIDE footprint C965860")
+	(property "Reference" "REF**"
+		(at 0 -2.800025 0)
+		(layer "F.SilkS")
+		(uuid "36ad6157-fab3-4fd4-8c5e-72947406a5d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C965860-LED-SMD_L1.7-W1.1-RD_RED-SIDE"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "9fb94e4c-fdc7-46fc-8188-51c31d0c5ac3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9645ea3f-eb76-45c6-8cc2-74f6cb0eb072")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3906d4b-22d6-4164-b96a-38a2b9f33aec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d04fbce-f0a7-4405-8cda-7a9d924bb12d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.508001 -0.800025)
+		(end -0.565304 -0.631013)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6cf3a5cd-28f3-48ee-b484-55d1d3727bf2")
+	)
+	(fp_line
+		(start -0.508001 -0.800025)
+		(end 0.508001 -0.8)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3357c38-19af-4ae8-92fe-471b5b40ec90")
+	)
+	(fp_line
+		(start 0.508001 -0.8)
+		(end 0.559131 -0.631039)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7bef905d-4a87-485c-a185-238b8fe6c320")
+	)
+	(fp_circle
+		(center -0.9 0.6)
+		(end -0.75 0.6)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "cb66308d-f042-4010-aa77-bcf148df8103")
+	)
+	(fp_rect
+		(start -1.25 -1)
+		(end 1.25 0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "221f6924-205e-438a-91c3-e24f1ffb9d3e")
+	)
+	(fp_text user "+"
+		(at 1.4 0.5 0)
+		(layer "F.SilkS")
+		(uuid "9eea7605-9838-4676-8c43-1833e5a353bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "REF**"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "fbca0856-4781-449e-b87b-e1c01203c1dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.846584 0 90)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6157cf34-d788-41d6-8f00-1f257936cc5c")
+	)
+	(pad "2" smd rect
+		(at 0.846584 0 90)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c9bd6214-9d87-471e-8ca4-2b537343d05b")
+	)
+	(model "I:\\My Drive\\Electronics\\Control\\RFAmpVCA\\RFAmpVCAV01\\JLC2KiCad_lib/footprint/packages3d/LED-SMD_L1.7-W1.1-RD_RED-SIDE.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

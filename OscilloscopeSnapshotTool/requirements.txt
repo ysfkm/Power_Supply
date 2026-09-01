@@ -1,0 +1,7 @@
+pyvisa
+pyvisa-py
+python-vxi11
+psutil
+zeroconf
+numpy
+matplotlib

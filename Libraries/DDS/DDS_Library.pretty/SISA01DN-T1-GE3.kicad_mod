@@ -1,0 +1,250 @@
+(footprint "SISA01DN-T1-GE3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "PowerPAK 1212-8 Single_2")
+	(tags "MOSFET (P-Channel)")
+	(property "Reference" "Q**"
+		(at -0.075 -2.65 0)
+		(layer "F.SilkS")
+		(uuid "3b19bcae-029d-4d6e-b8ad-4991e68d3dc3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SISA01DN-T1-GE3"
+		(at -0.12 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0122e442-a321-49f8-b847-3f1c43f2854b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "040f5f69-39fe-4332-b38c-d4d50cd2c310")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6c9b63d-d5cb-40f7-87d0-d4ee777da1d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19a2a482-edaf-4218-b6e3-31e6a16276cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.525 -1.525)
+		(end 1.555 -1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9aa33084-3057-46ab-975d-89b7b506d8ca")
+	)
+	(fp_line
+		(start -1.5 1.525)
+		(end 1.525 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a3ea504-24c2-4a79-b40f-d76d792da6c0")
+	)
+	(fp_line
+		(start -3.05 -2.525)
+		(end 2.81 -2.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e11ec1c-e1e1-432a-8fef-67973d43b8a9")
+	)
+	(fp_line
+		(start -3.05 2.525)
+		(end -3.05 -2.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7028146-3fc0-401b-8578-cbdc408449da")
+	)
+	(fp_line
+		(start 2.81 -2.525)
+		(end 2.81 2.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b060f3e-f3dc-4df1-9a7f-b5ed313db319")
+	)
+	(fp_line
+		(start 2.81 2.525)
+		(end -3.05 2.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f88c5f2-272f-4c63-89b8-4163133d5c5e")
+	)
+	(fp_line
+		(start -1.525 -1.525)
+		(end 1.525 -1.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11aea3f3-55f7-4372-88b5-4d4287a1e7d0")
+	)
+	(fp_line
+		(start -1.525 1.525)
+		(end -1.525 -1.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3bbf289b-9318-4302-a59a-c941c5dc4451")
+	)
+	(fp_line
+		(start 1.525 -1.525)
+		(end 1.525 1.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ce48daba-c788-4eb2-bd06-4b1b8bc49030")
+	)
+	(fp_line
+		(start 1.525 1.525)
+		(end -1.525 1.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36d4b552-ce92-448b-895a-cfb39c3760ab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.12 0 0)
+		(layer "F.Fab")
+		(uuid "ea5545b1-d523-473e-9c5d-13d75a261407")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.555 -0.992 90)
+		(size 0.405 0.99)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "31f949c4-0414-4a8e-8744-2c0643608f98")
+	)
+	(pad "1" smd rect
+		(at -1.555 -0.332 90)
+		(size 0.405 0.99)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ea11f47e-a834-46c2-95b8-94672d05a3f7")
+	)
+	(pad "1" smd rect
+		(at -1.555 0.328 90)
+		(size 0.405 0.99)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ef584a3f-e5cd-4ae9-894d-bf65017682f1")
+	)
+	(pad "2" smd rect
+		(at -1.555 0.988 90)
+		(size 0.405 0.99)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f635e07b-8356-49f7-85bf-59c45f7c5dc3")
+	)
+	(pad "3" smd custom
+		(at 0.438 -0.002)
+		(size 1.725 2.235)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start 0.607 0.797)
+				(end 1.367 1.202)
+				(width 0.01)
+				(fill yes)
+			)
+			(gr_rect
+				(start 0.607 0.122)
+				(end 1.367 0.527)
+				(width 0.01)
+				(fill yes)
+			)
+			(gr_rect
+				(start 0.607 -0.528)
+				(end 1.367 -0.123)
+				(width 0.01)
+				(fill yes)
+			)
+			(gr_rect
+				(start 0.612 -1.1925)
+				(end 1.372 -0.7875)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "d2823fef-5ab8-47a1-897b-3452e2c83271")
+	)
+	(model "SISA01DN-T1-GE3.stp"
+		(offset
+			(xyz -0.1199999955 0 0.04999999999)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)

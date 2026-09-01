@@ -1,0 +1,215 @@
+(footprint "C126026-LM1117S-1V8-SOT-223"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR footprint")
+	(tags "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR footprint C126026")
+	(property "Reference" "U15"
+		(at -0.000013 -5.326213 180)
+		(layer "F.SilkS")
+		(uuid "df5c4951-8ea1-4dd8-a923-2a72fb3f30c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C126026-LM1117S-1V8"
+		(at -0.000013 5.326213 180)
+		(layer "F.Fab")
+		(uuid "a9232c6a-ab76-4434-b722-55e7a2996248")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SZ_MyLibrary:C126026-LM1117S-1V8-SOT-223"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed3ad1ab-ddab-4a1b-bf77-883f02b3ee81")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "LM1117s"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e58a2280-a79b-4f79-af3a-d509b8c9cc2b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7c29c48-879a-45ac-916d-f0f5b6aadb5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C126026"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73a6389a-fd4b-43c4-9207-2cb78be96d3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "Partnumber" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47fca5ef-9a09-4a6a-b16d-064e27ee3374")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.571425 -3.326213)
+		(end 1.371374 -3.326213)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4476f35d-f7bd-467f-a222-98a05b05570f")
+	)
+	(fp_line
+		(start -1.571425 3.326213)
+		(end -1.571425 -3.326213)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f626d32-f1dd-48ad-93f8-79e93e7c2a5f")
+	)
+	(fp_line
+		(start 1.371374 -3.326213)
+		(end 1.371374 3.326213)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ea2d7d0-deb9-4d4f-b073-9aa0b848679b")
+	)
+	(fp_line
+		(start 1.371374 3.326213)
+		(end -1.571425 3.326213)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc881d67-e3dd-44cc-8bbf-5b732e81e832")
+	)
+	(fp_circle
+		(center 3.400102 3.249936)
+		(end 3.430074 3.249936)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "878cf20b-2827-4d1b-bea8-be94d891ae4f")
+	)
+	(fp_rect
+		(start -4.5 -4)
+		(end 5 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "612c05bd-7a95-4043-90b1-ec9c256c554e")
+	)
+	(fp_circle
+		(center 4.55174 2.187706)
+		(end 4.801676 2.187706)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e298a79b-669d-4dc9-ba88-518804bcda83")
+	)
+	(fp_text user "REF**"
+		(at -0.000013 7.326213 180)
+		(layer "F.Fab")
+		(uuid "26a21c06-3058-47f0-9825-d0ce7e07690b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.969952 2.299975)
+		(size 2.5 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3f002a5c-c415-42ed-a83b-022b6f1b9d30")
+	)
+	(pad "2" smd rect
+		(at 2.969952 0)
+		(size 2.5 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c4a4e046-2a1d-49f7-8ce5-65f25e4c5a9e")
+	)
+	(pad "3" smd rect
+		(at 2.969952 -2.299975)
+		(size 2.5 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4ae6ba4e-544c-4026-b80b-2228e8e0d919")
+	)
+	(pad "4" smd rect
+		(at -2.969977 0)
+		(size 2.340005 3.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7b65f70b-c5fc-4967-989a-f0d167b47332")
+	)
+	(model "G:/My Drive/Electronics/Control/DDS9910/DDS9910V05\\JLC2KiCad_lib/footprint/packages3d/SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

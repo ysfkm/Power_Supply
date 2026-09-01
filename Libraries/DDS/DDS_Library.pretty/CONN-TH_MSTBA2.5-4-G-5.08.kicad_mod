@@ -1,0 +1,183 @@
+(footprint "CONN-TH_MSTBA2.5-4-G-5.08"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CONN-TH_MSTBA2.5-4-G-5.08 footprint")
+	(tags "CONN-TH_MSTBA2.5-4-G-5.08 footprint C90076")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "b1773aa7-e904-47a9-bf72-dc1a92099154")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-TH_MSTBA2.5-4-G-5.08"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "ed41a0ec-250d-43eb-b67c-5e76f3e056e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef6f5023-a141-4b7a-b54d-c4756bfdefa9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cce25bf-b216-48f3-ae67-b17c27fec12e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd2e37a1-6494-4ed1-a7aa-06b4442c5957")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -11 -2)
+		(end -11 10)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3fa14342-955f-4c68-b19d-08a8c45943d1")
+	)
+	(fp_line
+		(start -11 10)
+		(end 11 10)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3ecf4d7-14b3-47eb-af03-136bbc06607b")
+	)
+	(fp_line
+		(start 11 -2)
+		(end -11 -2)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de1fed08-a1ab-4197-b226-923db00f49ce")
+	)
+	(fp_line
+		(start 11 10)
+		(end 11 -2)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09e199bf-8460-4ee4-89bc-d5c815bd6a07")
+	)
+	(fp_circle
+		(center 11.127 -2.127)
+		(end 11.156998 -2.127)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "302205be-5b3f-43c6-b1f0-1b6c6ee6f2a7")
+	)
+	(fp_rect
+		(start -11.3 -2.35)
+		(end 11.325 10.325)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "9567cc4c-488d-41d1-a636-fa394c68f3dc")
+	)
+	(fp_text user "REF**"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "a5e2d40f-9691-45c6-aa46-757ef2c15de4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 7.620015 0)
+		(size 2 2)
+		(drill 1.400051)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cd99e8e0-2cd9-463c-b919-717a9a7a1e91")
+	)
+	(pad "2" thru_hole circle
+		(at 2.540005 0)
+		(size 2 2)
+		(drill 1.400051)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fb0939bd-2c78-4321-a331-59426fc7d9dd")
+	)
+	(pad "3" thru_hole circle
+		(at -2.540005 0)
+		(size 2 2)
+		(drill 1.400051)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8ce3d4d2-b42c-46f3-a029-8e3e8a28f21d")
+	)
+	(pad "4" thru_hole circle
+		(at -7.620015 0)
+		(size 2 2)
+		(drill 1.400051)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c1b4e11c-1cb4-4b85-9ded-d3060017b7b1")
+	)
+	(model "K:/My Drive/Electronics/Control/Backplane/StandardBackplaneV05-L1\\JLC2KiCad_lib/footprint/packages3d/CONN-TH_MSTBA2.5-4-G-5.08.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

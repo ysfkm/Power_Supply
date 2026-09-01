@@ -1,0 +1,158 @@
+(footprint "C240410"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CAP-TH_BD10.0-P5.00-D1.0-FD footprint")
+	(tags "CAP-TH_BD10.0-P5.00-D1.0-FD footprint C240410")
+	(property "Reference" "REF**"
+		(at -0.625 -6.275 0)
+		(layer "F.SilkS")
+		(uuid "0456e374-d60e-4105-a42f-b64e03c52838")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "Value" "C240410"
+		(at -1.016002 2.762002 0)
+		(layer "F.Fab")
+		(uuid "f0126327-0f34-4765-97ee-cd3135abcf6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0e2a7f9-5c77-4fc9-945c-519cf925bdfd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de9e7287-6de0-4cdd-bf34-e5af9437a048")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f232fd95-5140-493e-acd6-29ea4064a159")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.733001 -3.925)
+		(end -4.716999 -3.925)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f789f49-75d8-4894-b59e-c13952eed77d")
+	)
+	(fp_line
+		(start -5.225 -4.687002)
+		(end -5.225 -3.162998)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e7fdc27-5792-48c3-ba7c-35baaf9fd0c0")
+	)
+	(fp_circle
+		(center -5 5)
+		(end -4.970028 5)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "69620875-7e49-4806-b807-3bc383e488b5")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "de7bc9b5-b6ba-42eb-a3af-c465de24daa0")
+	)
+	(fp_circle
+		(center 0.035028 -0.025)
+		(end 5.549815 -0.825)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c7496704-4f09-45ab-8049-425264c8ed42")
+	)
+	(fp_text user "REF**"
+		(at -1.016002 4.762002 0)
+		(layer "F.Fab")
+		(uuid "01545b47-db88-458d-b6bd-89a8bdff4e10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.540005 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0413e054-d542-4aa4-b51b-df2b33341dbd")
+	)
+	(pad "2" thru_hole circle
+		(at 2.540005 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9af7263b-56c5-4ac3-a4ff-21cf5dea39c4")
+	)
+	(model "K:/My Drive/Electronics/Control/Shutter/ShutterV01/ShutterV03\\JLC2KiCad_lib/footprint/packages3d/CAP-TH_BD10.0-P5.00-D1.0-FD.step"
+		(offset
+			(xyz 0 0 12.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

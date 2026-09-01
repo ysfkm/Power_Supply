@@ -1,0 +1,113 @@
+(footprint "G12181-003K-CASE"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.6 0)
+		(layer "F.SilkS")
+		(uuid "15dd6f48-8970-4d41-884d-c5f72489687c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "G12181-003K-CASE"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d1040fb9-62df-4748-8ea7-cab91e70575c")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afca3a46-25e8-4b4e-a010-3c1f407ff5ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8ef38f6-94db-467d-ac29-f7b8b430b3ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "489e24ea-b998-4371-a7fb-3f63a27f80ec")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.3 0.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1f981cba-cad3-42f7-9777-ab264906e036")
+	)
+	(fp_text user "3.6mm case height"
+		(at 3.81473 -2.54315 0)
+		(layer "F.Fab")
+		(uuid "f67ee6ac-c3f4-49f3-90e0-87d9a3def951")
+		(effects
+			(font
+				(size 1.001244 1.001244)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1.27 0)
+		(size 1.108 1.108)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "bc7f4efb-fc8a-4425-add7-f0284bae1e1e")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -1.27)
+		(size 1.108 1.108)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "b0bcb7e2-5a49-4a70-b675-91d3dad20176")
+	)
+	(pad "3" thru_hole circle
+		(at -1.27 0)
+		(size 1.108 1.108)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c0e57769-526d-4301-a311-90c1c14d133e")
+	)
+	(embedded_fonts no)
+)

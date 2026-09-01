@@ -1,0 +1,211 @@
+(footprint "C319051-SWDIP3-SMD_DSHP03TS-S"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SW-SMD_DSHP03TS-S footprint")
+	(tags "SW-SMD_DSHP03TS-S footprint C319051")
+	(property "Reference" "REF**"
+		(at 0 -5.802515 0)
+		(layer "F.SilkS")
+		(uuid "379655fd-f4f3-42c8-acb7-3167932fcdd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C319051-SWDIP3-SMD_DSHP03TS-S"
+		(at 0 5.802515 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3cca0b0-191a-4f9e-aef0-4116c146e26c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db148bfd-ed4a-444d-8eee-15f03816aa16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86567c0b-71ee-4f44-bce3-0e0d44a651cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c98cc77-d40d-44fc-a68d-8f72042e2b99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.781204 -2.246533)
+		(end 2.781204 -2.246533)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0dd3171e-2bfc-47f3-a605-6932dcac735b")
+	)
+	(fp_line
+		(start -2.781204 2.246279)
+		(end -2.781204 -2.246533)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8a4a86e-40f7-4e6e-aeb4-f0805451dad9")
+	)
+	(fp_line
+		(start 2.781204 -2.246533)
+		(end 2.781204 2.246279)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0ebe1f4-118a-4f0c-8158-120d10516cd0")
+	)
+	(fp_line
+		(start 2.781204 2.246279)
+		(end -2.781204 2.246279)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b79727dc-ee21-45e5-8a0f-d99ea742a863")
+	)
+	(fp_circle
+		(center -2.002286 3.802515)
+		(end -1.852172 3.802515)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c79eb1df-80a6-400a-9624-f6e94179522e")
+	)
+	(fp_circle
+		(center -1.270003 1.493904)
+		(end -1.119888 1.493904)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7eba1a70-0609-49af-80cc-3b7d77d7f507")
+	)
+	(fp_rect
+		(start -3.05 -5.25)
+		(end 3.025 5.325)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "7cb51e14-b3d4-4e8e-b24f-d8196e0fcbc4")
+	)
+	(fp_circle
+		(center -1.270003 4.64986)
+		(end -1.119888 4.64986)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "ef5ac093-5e37-4351-acf2-b7b453293985")
+	)
+	(fp_text user "REF**"
+		(at 0 7.802515 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "405ffe31-386c-48e3-941e-d02c28ab38d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -1.270003 3.802515)
+		(size 0.559995 2.655017)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "da9f12bf-99fa-4d1d-b5f3-cd6d676adb1b")
+	)
+	(pad "2" smd oval
+		(at 0 3.802515)
+		(size 0.559995 2.655017)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cb980f0f-d9ad-482e-8a89-8a24c887866e")
+	)
+	(pad "3" smd oval
+		(at 1.270003 3.802515)
+		(size 0.559995 2.655017)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9f3d3668-9380-408c-9056-a47b55420b95")
+	)
+	(pad "4" smd oval
+		(at 1.270003 -3.802515)
+		(size 0.559995 2.655017)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "88ee1c52-e396-4186-be95-3d5d1ca85e39")
+	)
+	(pad "5" smd oval
+		(at 0 -3.802515)
+		(size 0.559995 2.655017)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "668dbb69-9df6-47d2-ba54-6813cc153cb7")
+	)
+	(pad "6" smd oval
+		(at -1.270003 -3.802515)
+		(size 0.559995 2.655017)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9c087f74-daad-4abb-b1c4-d0d4972ba9c8")
+	)
+	(model "I:\\My Drive\\Electronics\\Control\\AnalogIn\\AnalogInV02\\JLC2KiCad_lib/footprint/packages3d/SW-SMD_DSHP03TS-S.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
